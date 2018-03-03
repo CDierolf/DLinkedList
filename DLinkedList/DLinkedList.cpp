@@ -180,6 +180,7 @@ int main()
 // END MAIN
 /////////////////////////////////////////////////////////
 // MAIN FUNCTIONS
+// SelectionHandler -- Handles the selection obtained from DisplayMenu
 void SelectionHandler(int s)
 {
 	if (s == 1)
@@ -225,6 +226,7 @@ void SelectionHandler(int s)
 	}
 	return;
 }
+// ValidateSelection -- Validates the values passed into it. For menu usage.
 bool ValidateSelection(int selection, int upper, int lower)
 {
 	if (selection > upper || selection < lower)
@@ -236,6 +238,7 @@ bool ValidateSelection(int selection, int upper, int lower)
 		return false;
 	}
 }
+// DisplayMenu -- Displays a menu
 void DisplayMenu() {
 	int selection;
 	do {

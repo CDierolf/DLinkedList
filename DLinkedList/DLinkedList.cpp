@@ -1,3 +1,7 @@
+// This program demonstrates a player list in the form of a doubly linked list
+// that might be used for a game or something similar.
+// Christopher K. Dierolf
+// 3/2/2018
 #include <iostream>
 #include <string>
 
